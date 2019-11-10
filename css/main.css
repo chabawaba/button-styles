@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
@@ -8,24 +9,24 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .65rem;
   text-align: center;
 }
 
 .btn {
   background-color: #333;
-  color: #ccc;
+  color: #fff;
   border-radius: 8px;
   border-width: 3px;
   padding: .4em .75em .3em;
   text-decoration: none;
   display: inline-block;
+  font-size: 1.125rem;
 }
 
 .btn-subtle {
-  background-color: #666;
-  color: #ccc;
-  border-width: 3px;
+  background-color: #ccc;
+  color: #fff;
 }
 
 .btn-ghost {
@@ -39,31 +40,28 @@ div {
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  border-width: 3px;
 }
 
 .btn-small {
   font-size: .875rem;
-  border-width: 3px;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  border-width: 3px;
 }
 
-.btn-subtle a:hover {
+.btn-subtle:hover {
   background: #333;
 }
 
-.btn-ghost a:hover {
+.btn-ghost:hover {
   background: #333;
 }
 
-.btn-warning a:hover {
+.btn-warning:hover {
   background: #933;
 }
 
-.btn a:hover {
+.btn:hover {
   background: #000;
 }
